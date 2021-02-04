@@ -34,7 +34,11 @@ namespace DocumentPlagiarismChecker.Outputs
         /// <param name="level">The output details level.</param>DisplayDisplay
 =======
         /// <param name="results">A set of results regarding each compared pair of files.</param>
+
         /// <param name="levels">The output details level.</param>DisplayDisplay
+
+
+      
 
         public override void Write(List<ComparatorMatchingScore> results){              
             DisplayLevel dl = Enum.Parse<DisplayLevel>(this.Settings.Display.ToUpper());     //TODO: try with enum inside settings       
